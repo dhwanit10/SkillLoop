@@ -1,0 +1,32 @@
+{
+  "name": "skill-swap-backend",
+  "version": "1.0.0",
+  "description": "Firebase backend for Skill Swap web application",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js --report-unused-disable-directives --max-warnings 0",
+    "setup": "node scripts/setup.js",
+    "test": "node test-backend.js"
+  },
+  "dependencies": {
+    "firebase": "^10.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "firebase-tools": "^14.10.1",
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "authentication",
+    "skill-swap",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT"
+}
