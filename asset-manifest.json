@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SkillLoop/static/css/main.62d20f62.css",
+    "main.js": "/SkillLoop/static/js/main.ffe6bed4.js",
+    "index.html": "/SkillLoop/index.html",
+    "main.62d20f62.css.map": "/SkillLoop/static/css/main.62d20f62.css.map",
+    "main.ffe6bed4.js.map": "/SkillLoop/static/js/main.ffe6bed4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62d20f62.css",
+    "static/js/main.ffe6bed4.js"
+  ]
+}
