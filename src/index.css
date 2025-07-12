@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white font-sans;
+}
+
+button, .btn, .btn-primary {
+  @apply bg-accent text-white font-semibold rounded-lg px-6 py-3 transition-colors duration-200 shadow-none;
+}
+button:hover, .btn:hover, .btn-primary:hover {
+  @apply bg-white text-accent;
+}
+
+a {
+  @apply text-accent transition-colors;
+  text-decoration: none;
+}
+a:hover {
+  @apply text-accent;
+  text-decoration: none;
+}
+
+input, select, textarea {
+  @apply bg-black text-white border border-gray-700 rounded-lg px-4 py-2 focus:border-accent focus:ring-accent focus:outline-none transition-all;
+}
+
+section {
+  @apply py-12 md:py-20 px-4 md:px-0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+} 
